@@ -93,6 +93,8 @@ $(document).ready(function(){
 
 
 function tab(){
+	alert('hi');
+	console.log('hi');
 	if(count>=10){
 		play('well-done.mp3');
 		$('.wrapper').addClass('hidden')
