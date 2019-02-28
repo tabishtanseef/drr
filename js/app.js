@@ -92,22 +92,7 @@ $(document).ready(function(){
 });
 
 
-function tab(){
-	alert('hi');
-	console.log('hi');
-	if(count>=10){
-		play('well-done.mp3');
-		$('.wrapper').addClass('hidden')
-		$('.tab').removeClass('hidden')
-		$('h3').addClass('hidden')
-		$('h2').addClass('hidden')
-		$('audio').addClass('hidden')
-	}
-	else{
-		
-		play('try-again.mp3');
-	}
-}
+
 
 function play(sound){
 	var sound1 = new Audio('audio/'+sound);
